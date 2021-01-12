@@ -204,7 +204,7 @@ dependencies {
         exclude(group: 'org.slf4j')
     }
 
-    testCompile 'org.apache.httpcomponents:httpclient:4.5.9'
+    testCompile 'org.apache.httpcomponents:httpclient:4.5.13'
     testCompile 'redis.clients:jedis:3.4.0'
     testCompile 'com.rabbitmq:amqp-client:5.9.0'
     testCompile 'org.mongodb:mongo-java-driver:3.12.7'
